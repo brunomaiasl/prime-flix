@@ -1,0 +1,86 @@
+
+body{
+    background: linear-gradient(45deg, #1a1a1a, #4a4a4a);
+    min-height: 100vh;
+}
+
+
+.filme-info{
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 15px 15px;
+    overflow: hidden;
+    background: linear-gradient(45deg, #1a1a1a, #4a4a4a);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgb(7, 177, 239)
+}
+
+.filme-info:hover{
+    box-shadow: 0px 4px 20px rgb(7, 177, 239)
+}
+
+.filme-info h1{
+    margin: 14px 0;
+}
+
+.filme-info img{
+    border-radius: 8px;
+    width: 800px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+    transition: transform 0.7s ease;
+    display: block;
+}
+
+.filme-info img:hover{
+    transform: scale(1.02);
+}
+
+.filme-info h3{
+    margin-top: 14px;
+}
+
+.filme-info span{
+    margin: 14px 0;
+}
+
+.area-buttons button{
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-left: 0;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.area-buttons button:hover{
+    background-color: brown;
+    color: white;
+}
+
+.area-buttons a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+
+.area-buttons a:hover{
+    color: white;
+}
+
+
+
+@media (max-width: 840px) {
+    .filme-info {
+      width: 93%; /* Altera para 80% da largura do container */
+    }
+}
