@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+[Prime Flix 🎥](https://primee-flix.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de um site dinâmico para explorar e gerenciar filmes favoritos. Foi desenvolvido com React.js, utilizando diversas ferramentas modernas do ecossistema web. O objetivo é demonstrar o consumo de APIs, gerenciamento de estados e criação de uma interface responsiva,atrativa e funcional.
 
-## Available Scripts
+📋 Funcionalidades <br/>
+	•	🎬 Exibição de detalhes dos filmes (título, imagem da capa, sinopse e avaliação).<br/>
+	•	⭐ Adicionar e remover filmes de uma lista de favoritos.<br/>
+	•	🔍 Busca automática de trailers no YouTube.<br/>
+	•	📱 Interface responsiva para dispositivos móveis e desktops.<br/>
+	•	🌐 Consumo de API externa para exibir informações reais dos filmes.<br/>
 
-In the project directory, you can run:
+1. React.js<br/>
+	•	Biblioteca JavaScript para criação de interfaces de usuário reativas.<br/>
+	•	Utilizado para gerenciar componentes reutilizáveis e o estado da aplicação.<br/>
+  Principais recursos usados:<br/>
+	•	useState e useEffect para gerenciamento de estado e efeitos colaterais.<br/>
+	•	React Router DOM para navegação entre páginas.<br/><br/>
+2. Node.js<br/>
+	•	Ambiente de execução JavaScript do lado do servidor.<br/>
+	•	Uso no projeto: configurar dependências, rodar scripts de desenvolvimento e gerenciamento do ambiente.<br/><br/>
 
-### `npm start`
+3. JavaScript (ES6+)<br/>
+	•	Linguagem principal para lógica do projeto.<br/>
+	•	Destaques no uso:<br/>
+	•	Promises e async/await para requisições à API.<br/>
+	•	Manipulação de arrays (métodos como map, filter).<br/>
+	•	Template strings para interpolação dinâmica.<br/><br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. HTML5<br/>
+	•	Estrutura base do projeto.<br/>
+	•	Utilizado em conjunto com React para renderizar o layout.<br/><br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. CSS3<br/>
+  Estilização do site, incluindo:<br/>
+	•	Responsividade: usando @media queries para diferentes tamanhos de tela.<br/>
+	•	Transições e animações: efeitos visuais para melhorar a experiência do usuário.<br/>
+	•	Flexbox e Grid: organização dos elementos no layout.<br/><br/>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  📦 API utilizada<br/>
+  	•	The Movie Database (TMDb) API<br/>
+  	•	Fonte de dados sobre os filmes exibidos.<br/>
+  	•	Documentação oficial: https://developers.themoviedb.org.<br/><br/>
 
-### `npm run build`
+  📚 Estrutura de Pastas<br/>
+    src/<br/>
+    ├── components/       - Componentes reutilizáveis do projeto.<br/>
+    ├── pages/            - Páginas principais, como Home e Filme.<br/>
+    ├── services/         - Configuração da API.<br/>
+    ├── styles/           - Arquivos CSS e temas.<br/>
+    ├── App.js            - Componente principal da aplicação.<br/>
+    ├── index.js          - Ponto de entrada do React.<br/><br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔗 Deploy<br/>
+O projeto foi publicado no Netlify para acesso online.<br/>
+[Clique aqui para acessar o site](https://primee-flix.netlify.app/)<br/><br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
