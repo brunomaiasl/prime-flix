@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/brunomaiasl/prime-flex.git/static/css/main.1327801c.css",
-    "main.js": "/brunomaiasl/prime-flex.git/static/js/main.f377cf65.js",
-    "index.html": "/brunomaiasl/prime-flex.git/index.html",
-    "main.1327801c.css.map": "/brunomaiasl/prime-flex.git/static/css/main.1327801c.css.map",
-    "main.f377cf65.js.map": "/brunomaiasl/prime-flex.git/static/js/main.f377cf65.js.map"
+    "main.css": "/brunomaiasl/prime-flex/static/css/main.1327801c.css",
+    "main.js": "/brunomaiasl/prime-flex/static/js/main.f377cf65.js",
+    "index.html": "/brunomaiasl/prime-flex/index.html",
+    "main.1327801c.css.map": "/brunomaiasl/prime-flex/static/css/main.1327801c.css.map",
+    "main.f377cf65.js.map": "/brunomaiasl/prime-flex/static/js/main.f377cf65.js.map"
   },
   "entrypoints": [
     "static/css/main.1327801c.css",
