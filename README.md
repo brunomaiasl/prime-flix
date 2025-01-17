@@ -1,4 +1,4 @@
-[Prime Flix 🎥](https://primee-flix.netlify.app/)
+<a href="https://primee-flix.netlify.app/" target="blank">Prime Flix 🎥</a>
 
 Este é um projeto de um site dinâmico para explorar e gerenciar filmes favoritos. Foi desenvolvido com React.js, utilizando diversas ferramentas modernas do ecossistema web. O objetivo é demonstrar o consumo de APIs, gerenciamento de estados e criação de uma interface responsiva,atrativa e funcional.
 
@@ -40,7 +40,8 @@ Este é um projeto de um site dinâmico para explorar e gerenciar filmes favorit
   📦 API utilizada<br/>
   	•	The Movie Database (TMDb) API<br/>
   	•	Fonte de dados sobre os filmes exibidos.<br/>
-  	•	Documentação oficial: https://developers.themoviedb.org.<br/><br/>
+  	•	Documentação oficial: <a href="https://developers.themoviedb.org." target="blank">developers.themoviedb.org.</a><br/><br/>
+
 
   📚 Estrutura de Pastas<br/>
     src/<br/>
@@ -54,7 +55,7 @@ Este é um projeto de um site dinâmico para explorar e gerenciar filmes favorit
 
 🔗 Deploy<br/>
 O projeto foi publicado no Netlify para acesso online.<br/>
-[Clique aqui para acessar o site](https://primee-flix.netlify.app/)<br/><br/>
+<a href="https://primee-flix.netlify.app/" target="blank">Clique aqui para acessar o site</a><br/><br/>
 
 
  
